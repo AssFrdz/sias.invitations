@@ -20,6 +20,10 @@ body{
     
 }
 
+.mobile{
+    display:none;
+}
+
 header{
     z-index:100;
 }
