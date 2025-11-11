@@ -7,71 +7,303 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jersey+15&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
-
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="style/output.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Great+Vibes&family=Imperial+Script&family=Italianno&family=Jersey+15&family=Lily+Script+One&family=Meie+Script&family=Monsieur+La+Doulaise&family=Pinyon+Script&family=Playwrite+CA:wght@100..400&family=Playwrite+US+Trad:wght@100..400&family=Qwitcher+Grypen:wght@400;700&family=Sofia&family=Tangerine:wght@400;700&family=Young+Serif&display=swap" rel="stylesheet">
 <title>Sia's Invitations</title>
+
 </head>
+<body class="flex flex-col">
 
-<style>
+<header class="blurr">
+    <div class="mobile">
+    <button class="open bars"><img src="assets/icon/bars.svg" alt="" class="icon"></button>
+    <a href="#home"><img src="assets/icon/logo.png" alt="" class="logo"></a>
+    <a href="https://instagram.com/sias.invitations"><img src="assets/icon/insta.svg" alt="" class="icon"></a>
+    </div>
+    <div class="computer sm:w-[100%]">
+    <button class="close"><img src="assets/icon/close.svg" alt="" class="icon"></button>
+    <a href="#home"><img src="assets/icon/logo.png" alt="" class="logo"></a>
+    <nav class="flex flex-col">
+        <a href="#home">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#tarif">Tarif</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="contact-bar">
+        <a href="tel:+33749457843" class="rounded-gold"><img src="assets/icon/phone.svg" alt="" class="icon"></a>
+        <a href="mailto:contact.praly@gmail.com" class="rounded-gold"><img src="assets/icon/mail.svg" alt="" class="icon"></a>
+        <a href="https://instagram.com/sias.invitations" class="rounded-gold"><img src="assets/icon/insta.svg" alt="" class="icon"></a>
+    </div>
+    </div>
 
-    body{
+</header>
 
-    background: linear-gradient(90deg, #E9C9C3 0%, #FFFAF2 57.69%);
 
-    display: flex;
-    align-items:center;
-    height:100vh;
-    justify-content: center;
-    }
 
-    *{
-        font-family: 'Great Vibes';
-    }
+<main class="flex flex-col">
+<section class="bandeau">
+    <p class="animate-pulse">offre de lancement : les 10 premiers clients ont leur faire-parts gratuits ! </p>
+    </section>
 
-    a, a:visited,p{
-        color:black;
-        font-size: 2rem;
-    }
+<section id="home">
+<div class="left">
+    <!-- mettre en fond le gif du faire part-->
 
-    .social-media{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+</div>
+
+<div class="right">
+
+    <div>
+    <h1 class="">C'est ici que votre histoire <br class="sm:hidden"> commence.</h1>
+    <p class="">Des invitations uniques pour annoncer vos <br class="sm:hidden"> plus heureux évènements.</p>
+
+
+    </div>
+
     
-.coming{
+    <div class="cta-pink drop-shadow-xl">Découvrir les réalisations</div>
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+</div>
+</section>
 
-}
+<section id="services">
+    <!--background rose tt ca-->
+    <div class="bg-blur-gold backdrop-blur-sm">
+        <h3>Parce que chaque moment précieux mérite d’être partagé de manière unique.</h3>
+        <p class="cursive">Chez Sia’s Invitations, nous vous proposons des faire-part digitaux agréables et qui mettront l’eau à la bouche pour vos différents évènements, mariage et anniversaires.</p>
+        <div class="cta-gold">voir nos modèles</div>
+    </div>
+
+    <a href="https://instagram.com/sias.invitations" class="insta"><img src="assets/icon/insta.svg" alt="" class="icon"> sias.invitations</a>
+    
+</section>
+
+<section id="benefices">
+
+    <h2>Pourquoi digitaliser nos faire-parts ?</h2>
+
+    <p>Digitaliser vos faire-parts en 2025 pour vos mariages, anniversaires, évènement présente de nombreux avantages.</p>
+
+    <div class="flex flex-wrap gap-10">
+        <div class="bloc shadow backdrop-blur-sm bg-blur-gold">
+        <div class="content backdrop-blur-sm bg-blur-gold">
+            <h4 class="title">élégance visuelle</h4>
+            <p class="small">
+                Des faires part élégants et visuels.
+            </p>
+            <img src="/assets/img/faire_part_3.svg" alt="" srcset="">
+        </div>
+    </div>
 
 
-
-</style>
-<body>
-
-    <main>
-
-
-        <div class="coming">
-
-            <img src="logo.png" alt="" srcset="">
-        <h1> Coming soon ... </h1>
-
-        
-
+    <div class="bloc shadow backdrop-blur-sm bg-blur-gold">
+        <div class="content backdrop-blur-sm bg-blur-gold">
+            <h4 class="title">partage facile</h4>
+            <p class="small">
+                Partager vos faire-parts sur instagram ou snapchat.
+            </p>
+            <img src="assets/img/phone_view.svg" alt="">
         </div>
 
-        <div class="social-media">
-            <p>En attendant, retrouvons-nous sur Instagram : </p>
-            <a href="https://instagram.com/sias.invitations"><i class="fa-brands fa-instagram"></i> Sia's Invitations</a>
-        </div>        
+    </div>
 
+    <div class="bloc shadow backdrop-blur-sm bg-blur-gold">
+        <div class="content backdrop-blur-sm bg-blur-gold">
+            <h4 class="title">personnalisation</h4>
+            <p class="small">
+             Consulter les modèles qui vous plaisent le plus et choisissez le pour votre évènement.
+            </p>
+            <img src="assets/img/group_faire_part.svg" alt="">
+        </div>
 
+    </div>
+    </div>
 
-    </main>
+    <!--<h2>Tarifs</h2>-->
+
+    <a href="#portfolio" class="cta-pink m-auto">Découvrir les réalisations</a>
     
+
+</section>
+
+
+<section id="tarif">
+
+    <h2>Tarif</h2>
+
+    <p>Un tarif unique est exercé.</p>
+
+<div class="flex flex-row flex-wrap m-auto">
+<div class="tarif shadow backdrop-blur-sm ">
+    <span class="price">10€</span>
+    <span class="subtitle small">Pour un faire-part</span>
+</div>
+<div class="order-process">
+<span class="">Comment passer commande ?</span>
+
+<div class="order-step">
+<span class="number">1.</span>
+<p>Choisissez un modèle parmis les modèles existants ou décrivez votre requête.</p>
+</div>
+
+<div class="order-step">
+<span class="number">2.</span>
+<p>Envoyez moi votre message !  Spécifications, etc ... en mail ou sur Instagram</p>
+</div>
+
+<div class="order-step">
+<span class="number">3.</span>
+<p>Je travaille sur le design, je fais des allers retours vers vous pour vérifier que cela vous convient.</p>
+</div>
+
+<div class="order-step">
+<span class="number">4.</span>
+<p>Vous procédez au paiement et je vous livre le faire-part sur Instagram, Whatsapp ou par Mail  !</p>
+</div>
+
+
+</div>
+</div>
+
+<a href="#contact" class="cta-pink">Commander son faire-part</a>
+
+
+
+</section>
+
+
+<section id="avis">
+    <h2>Ce que nos clients en pensent : </h2>
+
+    <div class="caroussel">
+        <button class="round-gold left shadow backdrop-blur-2xl">
+            <div class="triangle"></div>
+        </button>
+
+        <div class="content shadow backdrop-blur-2xl">
+
+            <img src="" alt="" class="prfl">
+            <span class="title">Pseudonyme</span>
+            <span class="occasion">occasion : anniversaire</span>
+            <span class="txt">“ Un simple avis ci-contre. Ce peut être un commentaire ou autre.”</span>
+
+        </div>
+        
+
+        <button class="round-gold right shadow backdrop-blur-2xl">
+            <div class="triangle"></div>
+        </button>
+    </div>
+
+    <a href="https://instagram.com/sias.invitations" class="cta-pink">
+        <img src="assets/icon/insta.svg" alt="" class="icon">
+        Consulter instagram</a>
+</section>
+
+<section id="galerie">
+    <h2>Galerie : </h2>
+
+    <p>Retrouver l’ensemble des modèles réalisés de faire parts digitaux réalisés depuis le début de l’activité.</p>
+
+    <div class="btn-bar">
+        <button class="btn-gold">Mariage</button>
+        <button class="btn-gold">Anniversaire</button>
+        <button class="btn-gold">Naissances</button>
+        <button class="btn-gold">Autre</button>
+    </div>
+
+    <div class="flow flex flex-wrap items-center justify-center">
+        <div class="item shadow">
+            <div class="button">
+               <a href="#contact" class="cta-gold">Demander</a><!-- mettre le texte automatique au clic-->
+            </div>
+        </div>
+
+        <div class="item shadow">
+            <div class="button">
+               <a href="#contact" class="cta-gold">Demander</a><!-- mettre le texte automatique au clic-->
+            </div>
+        </div>
+
+        <div class="item shadow">
+            <div class="button">
+               <a href="#contact" class="cta-gold">Demander</a><!-- mettre le texte automatique au clic-->
+            </div>
+        </div>
+
+        <div class="item shadow">
+            <div class="button">
+               <a href="#contact" class="cta-gold">Demander</a><!-- mettre le texte automatique au clic-->
+            </div>
+        </div>
+
+    </div>
+
+     <a href="https://instagram.com/sias.invitations" class="cta-pink">
+        <img src="assets/icon/insta.svg" alt="" class="icon">
+        Consulter instagram</a>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>Vous souhaitez commander votre prochain faire-part ? décrivez votre demande ci-dessous ou sur Instagram. je tenterai de revenir vers vous dans les meilleurs délais ! </p>
+
+
+    <div class="flex flex-wrap">
+<form class="flex flex-col sm:w-[80%]" action="">
+        <label for="mail">Adresse mail :</label>
+        <input class="" type="text">
+
+        <label for="message">Message :</label>
+        <textarea name="" id="" rows="4"></textarea>
+
+        <button type="submit" class="w-max cta-gold">Envoyer</button>
+    </form>
+
+    <div class="">
+        <h3>Retrouvez-nous sur les réseaux sociaux !</h3>
+        <a href="https://instagram.com/sias.invitations" class="cta-pink">
+        <img src="assets/icon/insta.svg" alt="" class="icon">
+        Consulter instagram</a>
+    </div>
+        
+
+    </div>
+    
+
+</section>
+
+<footer>
+<div class="left">
+<img src="assets/icon/logo.png" alt="" class="logo">
+   <div class="contact-bar">
+        <a class="rounded-gold" href="tel:+33749457843"><img src="assets/icon/phone.svg" alt="" class="icon"></a>
+        <a class="rounded-gold" href="mailto:contact.praly@gmail.com"><img src="assets/icon/mail.svg" alt="" class="icon"></a>
+        <a class="rounded-gold" href="https://instagram.com/sias.invitations"><img src="assets/icon/insta.svg" alt="" class="icon"></a>
+    </div>
+</div>
+
+<span class="middle"> sias.invitations ©️ tout droits réservés.</span>
+
+<div class="right flex flex-col">
+     <a href="#home">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#tarif">Tarif</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+   
+</div>
+
+</footer>
+</main>
+
+
+<script src="script/script.js"></script>
 </body>
 </html>
