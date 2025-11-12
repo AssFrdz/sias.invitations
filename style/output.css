@@ -255,7 +255,7 @@
 }
 body {
   background: url("../assets/img/background_computer.svg");
-  background-size: 150%;
+  background-size: 200%;
   background-position: center;
   background-attachment: fixed;
 }
@@ -310,8 +310,8 @@ header .contact-bar, .contact-bar {
   font-variant: small-caps;
 }
 .icon {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1rem;
+  height: 1rem;
 }
 .blurr::before {
   content: "";
@@ -727,7 +727,7 @@ footer .middle {
     width: 3rem;
     margin: 1rem;
   }
-  .logo {
+  .bloc .content .logo {
     width: 10rem;
     height: 10rem;
     margin: auto;
@@ -764,6 +764,9 @@ footer .middle {
     background-repeat: none;
     background-attachment: fixed;
   }
+  .bloc .content img {
+    height: 10rem;
+  }
   #benefices,#services,#avis,#tarif,#contact,#galerie {
     padding-left: 0;
   }
@@ -799,7 +802,7 @@ footer .middle {
   }
   body {
     background: url("../assets/img/background_computer.svg");
-    background-size: 200%;
+    background-size: 250%;
     background-position: center;
     background-attachment: fixed;
   }
@@ -950,6 +953,11 @@ footer .middle {
   }
   #contact form {
     width: 80%;
+  }
+  #benefices .bloc .title {
+    font-family: 'Italianno';
+    font-size: 1.75rem;
+    text-transform: capitalize;
   }
 }
 @property --tw-rotate-x {
